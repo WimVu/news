@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url('TitilliumWeb-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amaranth Regular'), local('Amaranth-Regular'), url('Amaranth-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Amaranth';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amaranth Bold'), local('Amaranth-Bold'), url('Amaranth-Bold.ttf') format('truetype');
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #f5f5f5;
+  text-align: left;
+  color: #303030;
+}
+a {
+    text-decoration: none;
+    color: #3868AB;
+}
+
+a:visited {
+    color: #283754;
+}
+.favicon {
+  width: 16px; /* Adjust the size as needed */
+  height: 16px; /* Adjust the size as needed */
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  padding-top: 3%;
+      padding-bottom: 3%;
+      padding-left: 7%;
+      padding-right: 7%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+}
+.title {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 36px;
+  color: #7B7B7B;
+    /*margin-left: 20px;*/
+}
+.title a, .title a:visited {
+  text-decoration: none;
+  color: #7B7B7B;
+}
+.title-yellow {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 36px;
+  color: #C19616;
+}
+.title-grey {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 36px;
+  color: #303030;
+}
+.subtitle {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2D8792;
+  margin-top: 20px;
+}
+.highlight {
+  color: #2E78BD;
+}
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ }   
+
+
+
+
+.project-title {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.project-content {
+  /*margin-left: 20px;*/
+    font-size: 17px;
+}
+.project-language{
+    font-size: 17px;
+    color: #969696;
+}
+
+
+.block {
+  flex: 1; /* This ensures that both blocks take up an equal amount of space */
+  padding: 10px; /* Add some padding for better visual separation and layout */
+}
+    
+.category-divider {
+  height: 1px;
+  background-color: lightgrey; /* This sets the color of the divider */
+  width: 50%; /* This keeps the width of the divider as is */
+  margin-left: 0;
+  margin-right: auto; /* This pushes the divider to the left */
+  margin-top: 15px; /* Adjust the spacing above the divider as needed */
+  margin-bottom: 15px; /* Adjust the spacing below the divider as needed */
+}
+
+
+
+img {
+  width: 100%;
+
+}
+img.project-image {
+  height: 307px;
+    width: auto;
+margin-top: 30px;
+margin-bottom: 20px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
